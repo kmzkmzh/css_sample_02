@@ -1,0 +1,44 @@
+@charset "UTF-8";
+body {
+  background-color: darkslategray;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+}
+ 
+#wrap {
+  width: 960px;
+  margin: auto;
+  background-color: lightsteelblue;
+}
+ 
+header {
+  padding: 40px;
+  height: 80px;
+  background-image: url("images/pattern.png");
+  background-repeat: repeat;
+}
+ 
+nav {
+  padding: 8px 40px;
+  background-color: #66A5AD;
+  color: black;
+}
+ 
+main {
+  padding: 40px;
+  height : 400px;
+}
+ 
+footer {
+  padding: 40px;
+  height: 40px;
+  background-color : #66A5AD;
+  color: black;
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 200px 50px;
+  background-position: center bottom;
+}
+
+
+.page-title {color: blue;}
